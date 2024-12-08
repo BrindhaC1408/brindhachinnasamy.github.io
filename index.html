@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brindha Chinnasamy Portfolio</title>
+  <title>Home - Brindha Chinnasamy</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+  <script src="js/script.js" defer></script>
 </head>
 <body>
-
   <header>
     <nav>
       <ul>
@@ -16,44 +17,46 @@
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
+    <button id="dark-mode-toggle">Dark Mode</button>
   </header>
 
-  <section class="hero">
-    <img src="images/profile.jpg" alt="Brindha Chinnasamy" class="profile-img">
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Brindha Chinnasamy, a skilled developer in PHP, Java, and Python. Innovative Full Stack Developer with 3+ years of 
-        experience in developing robust backend systems 
-        and dynamic frontend interfaces. Proficient in Java 
-        with expertise in Spring Boot and hands-on 
-        experience with React. Skilled in designing and 
-        implementing scalable APIs, collaborating across 
-        teams, and delivering high-quality solutions in fast-spaced environments.
-        </p>
-    <a href="projects.html" class="btn">View My Projects</a>
-  </section>
+  <main>
+    <section class="hero" data-aos="fade-up">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I am Brindha Chinnasamy, a Software Engineer passionate about Java and Front-End Development.</p>
+    </section>
 
-  <section class="social-icons">
-    <h2>Follow Me</h2>
-    <a href="https://www.linkedin.com/in/brindha-chinnasamy-64b607256/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
-    <!-- <a href="https://twitter.com/your-profile" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a> -->
-    <a href="https://github.com/BrindhaC1408" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
-    <!-- <a href="https://www.facebook.com/your-profile" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a> -->
-  </section>
-  
+    <section class="social-links" data-aos="fade-up">
+      <h2>Connect with Me</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/brindha-chinnasamy-64b607256/" target="_blank" rel="noopener noreferrer">
+            <img src="images/linkedin-icon.png" alt="LinkedIn" />
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/BrindhaC1408" target="_blank" rel="noopener noreferrer">
+            <img src="images/github-icon.png" alt="GitHub" />
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
+            <img src="images/resume-icon.png" alt="Resume" />
+            Resume
+          </a>
+        </li>
+      </ul>
+    </section>
+    
+  </main>
 
   <footer>
-    <p>© 2024 Brindha Chinnasamy. All Rights Reserved.</p>
-    <div class="social-icons">
-      <a href="https://github.com/brindhachinnasamy" target="_blank" class="icon">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/brindhachinnasamy" target="_blank" class="icon">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </div>
+    <p>&copy; 2024 Brindha Chinnasamy</p>
   </footer>
-  
 </body>
 </html>
